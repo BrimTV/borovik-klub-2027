@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Конспект эфира Ирины Боровик">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Конспект эфира Боровик</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Golos+Text:wght@400;500;700;800&family=Vollkorn:wght@700;800;900&display=swap">
+<style>
+/* Та же школьная тетрадь, что на продающем сайте, но текст лежит на чистом листе: клетка остаётся только вокруг него. */
+:root{
+  --paper:#F6FAFF;--grid:#DCE8F5;--ink:#2B2A8C;--text:#1E2132;--muted:#565D75;
+  --pen:#CF1F2D;--on-pen:#FFFFFF;--margin:#EFA2A9;--sheet:#FFFFFF;--line:#D5E0EE;--marker:#FFE36B;--tint:#F0F4FB;
+  --display:"Vollkorn",Georgia,"Times New Roman",serif;
+  --body:"Golos Text",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --hand:"Caveat","Segoe Print","Bradley Hand",cursive;
+  --scale:1;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#16302B;--grid:#1F3D37;--ink:#F3F6EA;--text:#E6ECDF;--muted:#AABAAE;
+  --pen:#FF9384;--on-pen:#16302B;--margin:#7C4C49;--sheet:#1B3731;--line:#335750;--marker:rgba(247,217,92,.38);--tint:#234640;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#16302B;--grid:#1F3D37;--ink:#F3F6EA;--text:#E6ECDF;--muted:#AABAAE;
+  --pen:#FF9384;--on-pen:#16302B;--margin:#7C4C49;--sheet:#1B3731;--line:#335750;--marker:rgba(247,217,92,.38);--tint:#234640;
+  color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-padding-top:84px}
+body{margin:0;background-color:var(--paper);color:var(--text);font:400 18px/1.6 var(--body);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:26px 26px;-webkit-text-size-adjust:100%}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--sheet)}
+#bar{position:fixed;top:env(safe-area-inset-top,0px);left:0;height:3px;width:0;background:var(--pen);z-index:12}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--pen);outline-offset:2px;border-radius:3px}
+h1,h2,h3{font-family:var(--display);color:var(--ink);text-wrap:balance;margin:0}
+p{margin:0}
+.head{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--sheet);border-bottom:2px solid var(--ink)}
+.head-in{max-width:880px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:58px}
+.tabs{display:flex;gap:4px;min-width:0}
+.tab{font:800 18px/1 var(--body);color:var(--muted);text-decoration:none;padding:20px 8px 17px;border-bottom:4px solid transparent;margin-bottom:-2px;white-space:nowrap}
+.tab[aria-current="true"]{color:var(--ink);border-bottom-color:var(--pen)}
+.size{display:flex;gap:4px;flex:none}
+.size button{width:42px;height:38px;border:1.5px solid var(--line);border-radius:4px;background:transparent;color:var(--ink);font:700 16px/1 var(--body);cursor:pointer}
+.size button+button{font-size:21px}
+.wrap{max-width:880px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:30px 60px}
+.sheet{background:var(--sheet);border:1.5px solid var(--line);padding:clamp(22px,5vw,54px) clamp(18px,5vw,56px);font-size:calc(19px * var(--scale));line-height:1.68}
+.eyebrow{font:700 28px/1.1 var(--hand);color:var(--pen);transform:rotate(-1.5deg);transform-origin:left;display:block;margin-bottom:6px}
+h1{font-weight:900;font-size:clamp(36px,6vw,56px);line-height:1.12}
+.meta{color:var(--muted);font-size:.84em;margin-top:12px}
+
+.gist{margin-top:30px;background:var(--tint);padding:22px 24px}
+.gist h2{font-size:1.34em;margin-bottom:10px}
+.gist ol{margin:0;padding-left:1.25em;display:grid;gap:8px}
+
+.sec{margin-top:44px;padding-top:30px;border-top:1.5px solid var(--line)}
+.sec h2{font-size:clamp(27px,3.8vw,34px);font-weight:800;line-height:1.16}
+.sec .tc{display:block;font:700 25px/1 var(--hand);color:var(--pen);margin-bottom:6px}
+.sec>*+*{margin-top:14px}
+.sec ul,.sec ol{margin-block:14px 0;padding-left:1.25em;display:grid;gap:9px}
+.pen{font:700 1.48em/1.17 var(--hand);color:var(--pen)}
+.mark{background:linear-gradient(transparent 58%,var(--marker) 58%)}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.92em;line-height:1.45}
+th{text-align:left;font-weight:800;color:var(--ink);padding:9px 12px 9px 0;border-bottom:2px solid var(--ink);vertical-align:bottom}
+td{padding:11px 12px 11px 0;border-bottom:1.5px solid var(--line);vertical-align:top}
+.check{list-style:none;padding:0!important}
+.check label{display:grid;grid-template-columns:28px minmax(0,1fr);gap:8px;cursor:pointer;align-items:start}
+.check input{width:22px;height:22px;margin:4px 0 0;accent-color:var(--pen)}
+.check input:checked+span{color:var(--muted);text-decoration:line-through}
+.offer{background:var(--ink);color:var(--sheet);padding:24px 26px;margin-top:44px}
+.offer h2{color:var(--sheet);font-size:1.42em}
+.offer p{margin-top:8px}
+.offer a{display:inline-block;margin-top:14px;background:var(--sheet);color:var(--ink);font-weight:800;text-decoration:none;padding:14px 20px;border-radius:5px}
+
+.tools{display:grid;gap:14px;margin-top:26px}
+.search{display:flex;gap:10px;align-items:center}
+.search input{flex:1;min-width:0;font:500 17px/1.3 var(--body);padding:12px 12px;border:1.5px solid var(--line);border-radius:4px;background:var(--paper);color:var(--text)}
+.search output{font-size:15px;color:var(--muted);white-space:nowrap}
+.toc{background:var(--tint);padding:16px 20px}
+.toc summary{font:800 1em/1.2 var(--body);color:var(--ink);cursor:pointer}
+.toc ol{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:7px;font-size:.92em;line-height:1.35}
+.toc a{display:grid;grid-template-columns:62px minmax(0,1fr);gap:6px;text-decoration:none}
+.toc a span{color:var(--pen);font-variant-numeric:tabular-nums;font-weight:500}
+.toc a:hover b{text-decoration:underline}
+.toc b{font-weight:500}
+
+.ch{margin-top:46px;padding-top:22px;border-top:2px solid var(--ink)}
+.ch>h2{font-size:clamp(27px,3.8vw,34px);font-weight:800;line-height:1.16}
+.ch>.tc{display:block;font:700 25px/1 var(--hand);color:var(--pen);margin-bottom:6px}
+.re{margin-top:24px}
+.who{display:flex;align-items:baseline;gap:10px;font-weight:800;font-size:.88em;color:var(--ink);margin-bottom:5px}
+.who time{font:700 1.2em/1 var(--hand);color:var(--pen)}
+.re.other{padding-left:16px;border-left:3px solid var(--margin)}
+.re.dm .who{color:var(--pen)}
+.re p{max-width:66ch}
+.re p+p{margin-top:13px}
+mark{background:var(--marker);color:inherit;padding:0 1px}
+.foot{font-size:14.5px;line-height:1.5;color:var(--muted);margin-top:18px}
+@media (max-width:560px){
+  .tab{font-size:17px;padding-inline:5px}
+  .size button{width:36px}
+  .sheet{border-inline:0;margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding-inline:max(18px,env(safe-area-inset-left,0px))}
+}
+@media print{.head,.tools,#bar{display:none}.sheet{border:0}body{background:none}}
+</style>
+</head>
+<body>
+
+
+<div id="bar"></div>
+<header class="head">
+  <div class="head-in">
+    <div class="tabs"><span class="tab" aria-current="true">Конспект эфира</span></div>
+    <div class="size"><button id="minus" type="button" aria-label="Уменьшить текст">А−</button><button id="plus" type="button" aria-label="Увеличить текст">А+</button></div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<article class="sheet" id="konspekt">
+  <span class="eyebrow">Записываем!</span>
+  <h1>Как начать зарабатывать с&nbsp;блога</h1>
+  <p class="meta">Эфир Ирины Боровик и Дмитрия Звездуна, 8&nbsp;ноября. Читать минут десять. Красным указано время в&nbsp;записи.</p>
+
+  <section class="gist">
+    <h2>Главное за&nbsp;минуту</h2>
+    <ol>
+      <li>Блог нужен для вашей безопасности и&nbsp;роста. Раз вы уже тратите на&nbsp;него время, он обязан приносить деньги.</li>
+      <li>Начните хоть с&nbsp;чего-то. Правильного ответа заранее не&nbsp;будет.</li>
+      <li>Три поста в&nbsp;неделю, три темы, один год без смены курса.</li>
+      <li>Система из&nbsp;трёх частей: привлечение, прогрев, продажа. На&nbsp;каждый продукт минимум шесть продающих постов.</li>
+      <li>Основные деньги приносят повторные покупки. Держитесь за&nbsp;тех, кто уже купил.</li>
+    </ol>
+  </section>
+
+  <section class="sec">
+    <span class="tc">10:46</span>
+    <h2>Зачем вообще вести блог</h2>
+    <p><b>Безопасность.</b> Ирина написала пост, и&nbsp;её друга взяли в&nbsp;больницу во&nbsp;время коронавируса. После постов в&nbsp;городе ставили лавочки и&nbsp;чинили остановки. Когда на&nbsp;её детей написали заявление, огласка в&nbsp;соцсетях помогла всё погасить.</p>
+    <p><b>Правда о&nbsp;себе тоже защита.</b> Популярного человека начнут изучать. Ирина рассказывает о&nbsp;трудных фактах биографии сама, раньше других.</p>
+    <p><b>Рост.</b> Блог заставил её научиться говорить в&nbsp;прямых эфирах и&nbsp;с&nbsp;властью, поучаствовать в&nbsp;конкурсе на&nbsp;главу города, запеть и&nbsp;написать книги.</p>
+    <p class="pen">Многие относятся к&nbsp;блогу как к&nbsp;игрушке, даже когда с&nbsp;него зарабатывают</p>
+  </section>
+
+  <section class="sec">
+    <span class="tc">16:49</span>
+    <h2>Начните хоть с&nbsp;чего-то</h2>
+    <p>Просто не&nbsp;сидите на&nbsp;месте. Когда Ирина завязала с&nbsp;алкоголем, ушла со&nbsp;всех работ и&nbsp;удалила страницу, она начала с&nbsp;трёх кругов в&nbsp;день по&nbsp;Горьковскому парку.</p>
+    <ul>
+      <li><b>Нет ниши?</b> Выберите что угодно и&nbsp;начните продавать. Ирина зашла во&nbsp;ВКонтакте сексологом, а&nbsp;теперь учит блогингу.</li>
+      <li><b>История с&nbsp;микрозеленью.</b> Участница мастермайнда не&nbsp;знала, что продавать, но&nbsp;каждую весну выращивала микрозелень. На&nbsp;первом запуске заработала 1&nbsp;490&nbsp;₽. Довела людей до&nbsp;результата, разобрала, что сработало, и&nbsp;на&nbsp;следующий год зарабатывала на&nbsp;блоге 70&nbsp;000&nbsp;₽.</li>
+    </ul>
+  </section>
+
+  <section class="sec">
+    <span class="tc">16:57</span>
+    <h2>Регулярность важнее красоты</h2>
+    <p>Чем регулярнее публикации, тем больше вас показывают алгоритмы. Человек, который год пишет раз в&nbsp;три дня какой попало пост, обойдёт того, кто дважды в&nbsp;год выкладывает шедевр с&nbsp;фотосессии.</p>
+    <p class="pen">Лучше три плохих поста, чем ни&nbsp;одного</p>
+    <p>Норма: <span class="mark">три поста в&nbsp;неделю</span>. Проверьте на&nbsp;себе хотя бы два месяца. «Вечерело…» с&nbsp;фотографией на&nbsp;фоне осенней листвы тоже считается постом.</p>
+  </section>
+
+  <section class="sec">
+    <span class="tc">23:35</span>
+    <h2>Три темы на&nbsp;целый год</h2>
+    <div class="tbl"><table>
+      <tr><th>Тема</th><th>Что это</th><th>Пример</th></tr>
+      <tr><td><b>Экспертная</b></td><td>То, за&nbsp;что вам платят</td><td>Психология, шитьё, бухгалтерия</td></tr>
+      <tr><td><b>Хобби</b></td><td>Где вы тоже хороши</td><td>Путешествия</td></tr>
+      <tr><td><b>Сериал</b></td><td>Где пока не&nbsp;получается. Здесь есть взлёты и&nbsp;падения</td><td>Дети-подростки, отношения, путь Ирины к&nbsp;миллиону подписчиков</td></tr>
+    </table></div>
+    <p>Позиционирование весь год не&nbsp;меняется. Человек, который утром таролог, а&nbsp;к&nbsp;вечеру нутрициолог, никому не&nbsp;запомнится.</p>
+    <p><b>Важно, какой вы.</b> Специалистов много, а&nbsp;выбирают по&nbsp;человеку. Покажете котика, придут любители котиков. Ирина и&nbsp;Дмитрий познакомились, потому что у&nbsp;него семеро детей. Покупают у&nbsp;родного человека, который примелькался в&nbsp;ленте.</p>
+  </section>
+
+  <section class="sec">
+    <span class="tc">31:18</span>
+    <h2>Вы уже достаточно хороши</h2>
+    <p><b>Блогер</b> это человек, который развивает свой блог. Хочет больше подписчиков, больше постов, больше продаж. Даже если подписчиков 32.</p>
+    <p><b>Примеры.</b> Женя Королева издала одну книгу и&nbsp;помогла написать больше 600. Свят Белый семь раз сидел в&nbsp;тюрьме, а&nbsp;теперь наставник по&nbsp;личному бренду. Ирина, живя на&nbsp;42&nbsp;000&nbsp;₽ с&nbsp;четырьмя детьми, очень захотела денег, и&nbsp;стыд продавать прошёл.</p>
+    <p>Упражнение: руку на&nbsp;грудь и&nbsp;вслух.</p>
+    <p class="pen">Я хороший специалист. Я могу продавать себя через блог. Я достоин очень больших денег, и&nbsp;я начну это делать прямо сейчас</p>
+  </section>
+
+  <section class="sec">
+    <span class="tc">42:42</span>
+    <h2>Страница или сообщество</h2>
+    <p>Пока вас не&nbsp;узнают на&nbsp;улицах хотя бы в&nbsp;родном городе, качайте личную страницу. Сообщество для Ирины витрина с&nbsp;продуктами, а&nbsp;на&nbsp;личной люди смотрят, какой вы человек. Воронки и&nbsp;прогревы подключаются позже.</p>
+  </section>
+
+  <section class="sec">
+    <span class="tc">45:24</span>
+    <h2>Станьте своим кейсом и&nbsp;стройте ступени</h2>
+    <p>Разбор человека с&nbsp;кучей навыков: педагог, видео, открытки с&nbsp;дополненной реальностью, сайты. Совет: сделать ставку на&nbsp;то, где больше опыта, и&nbsp;пристроить остальное ступенями.</p>
+    <ul>
+      <li><b>Первая ступень:</b> учим основному, например снимать видео.</li>
+      <li><b>Вторая:</b> сайт для тех, кто уже снимает.</li>
+      <li><b>Третья:</b> соцсети и&nbsp;умение держаться в&nbsp;кадре.</li>
+    </ul>
+    <p><b>Считайте людей.</b> «Через мои курсы прошло 150&nbsp;человек» работает, и&nbsp;никто не&nbsp;спросит, сколько из&nbsp;них дети.</p>
+    <p><b>Свой кейс.</b> Диетологу с&nbsp;лишним весом и&nbsp;видеографу без видео на&nbsp;странице не&nbsp;поверят. А&nbsp;пассивный доход на&nbsp;Мальдивах остаётся сказкой: все богатые знакомые Ирины до&nbsp;сих пор работают.</p>
+  </section>
+
+  <section class="sec">
+    <span class="tc">52:59</span>
+    <h2>Вся сила в&nbsp;повторных покупках</h2>
+    <p>Одна консультация за&nbsp;5&nbsp;000&nbsp;₽ заставляет всё время искать новых людей. Купившему марафон за&nbsp;3&nbsp;900&nbsp;₽ можно продать курс за&nbsp;20&nbsp;000&nbsp;₽, а&nbsp;потом и&nbsp;дороже.</p>
+    <p>Ученица зашла на&nbsp;марафон за&nbsp;2&nbsp;900&nbsp;₽. За&nbsp;три года она дошла до&nbsp;четвёртого продукта, сама выросла и&nbsp;провела с&nbsp;Ириной общий тренинг. Говорит: ещё годик, и&nbsp;точно отдаст те&nbsp;самые 300&nbsp;000&nbsp;₽.</p>
+    <p class="pen">Рассчитывайте воронку года на&nbsp;три</p>
+  </section>
+
+  <section class="sec">
+    <span class="tc">56:15</span>
+    <h2>Как собрать первый продукт</h2>
+    <p>Пока вы думаете, как упаковать продукт, ничего не&nbsp;происходит. Ирина набрала первую группу условно бесплатно: 6–8&nbsp;человек написали посты, почему хотят учиться, и&nbsp;отдали ещё три поста в&nbsp;счёт оплаты.</p>
+    <ul>
+      <li>Ученицы сами подсказали 90% материала нынешнего курса.</li>
+      <li>Если есть возможность, первую группу соберите офлайн, чтобы близко увидеть людей.</li>
+      <li>Рабочий формат: <span class="mark">шесть встреч раз в&nbsp;две недели</span>. Можно начать и&nbsp;с&nbsp;десятидневного марафона.</li>
+      <li>Отзывы первой группы становятся материалом для продажи.</li>
+    </ul>
+  </section>
+
+  <section class="sec">
+    <span class="tc">1:08:56</span>
+    <h2>Система: привлечение, прогрев, продажа</h2>
+    <p>Сначала вы определяетесь с&nbsp;темой и&nbsp;год делаете одно и&nbsp;то&nbsp;же. Как в&nbsp;зале по&nbsp;программе, как с&nbsp;колодцем: лучше рыть в&nbsp;одном месте до&nbsp;воды. Дальше работают три части.</p>
+    <div class="tbl"><table>
+      <tr><th>Часть</th><th>Задача</th><th>Что публиковать</th></tr>
+      <tr><td><b>ТОФУ</b><br>Привлечение</td><td>Новые люди и&nbsp;развлечение</td><td>Хайповые темы, необычные работы, смешные ролики. Всё, что вы делали до&nbsp;эфира, считается этой частью</td></tr>
+      <tr><td><b>МОФУ</b><br>Прогрев и&nbsp;доверие</td><td>Показать, какой вы специалист</td><td>Дипломы, номинации, кейсы клиентов с&nbsp;их разрешения, живые разборы, авторская методика</td></tr>
+      <tr><td><b>БОФУ</b><br>Предложение и&nbsp;продажа</td><td>Назвать продукт и&nbsp;цену</td><td>Прямые посты с&nbsp;ценой, минимум шесть на&nbsp;каждый продукт</td></tr>
+    </table></div>
+    <p>Новичкам Ирина советует примерно поровну. У&nbsp;неё самой при четырёх постах в&nbsp;день продажа занимает около 20%.</p>
+    <ul>
+      <li><b>У&nbsp;людей память как у&nbsp;рыбки гупи.</b> Иногда пишите краткое содержание предыдущих серий.</li>
+      <li><b>В&nbsp;своей теме не&nbsp;сомневайтесь.</b> На&nbsp;критику отвечайте: это моя авторская методика.</li>
+      <li><b>С&nbsp;первого поста не&nbsp;купят.</b> За&nbsp;20&nbsp;лет у&nbsp;Ирины такого не&nbsp;было ни&nbsp;разу. Многие просто не&nbsp;видят пост в&nbsp;ленте.</li>
+      <li><b>После продажи</b> соберите купивших в&nbsp;одно место и&nbsp;делайте следующие ступени.</li>
+    </ul>
+  </section>
+
+  <section class="sec">
+    <span class="tc">1:18:11</span>
+    <h2>Кому и&nbsp;что продавать</h2>
+    <p>По оценке Ирины, предпринимателей во&nbsp;ВКонтакте около 8%, остальные 92% простые люди. Дмитрий уточнил: в&nbsp;эти 8% входят и&nbsp;фрилансеры.</p>
+    <ul>
+      <li><b>Начните с&nbsp;простых людей и&nbsp;самозанятых.</b> Их много, появятся кейсы и&nbsp;узнаваемость. Предприниматели могут прийти сами.</li>
+      <li><b>Консультация дешевле 5&nbsp;000&nbsp;₽</b>, по&nbsp;мнению Ирины, не&nbsp;должна стоить в&nbsp;наше время. На&nbsp;ней и&nbsp;продаётся следующий продукт.</li>
+      <li><b>Большому клиенту</b> трудно не&nbsp;заплатить, а&nbsp;поверить, что вы разбираетесь. Нужны кейсы и&nbsp;отзывы людей с&nbsp;такими же задачами.</li>
+    </ul>
+  </section>
+
+  <section class="sec">
+    <span class="tc">1:25:19</span>
+    <h2>Цены в&nbsp;постах и&nbsp;реклама</h2>
+    <p>Так ответила Ирина. Это её личный опыт, а&nbsp;не&nbsp;юридическая консультация.</p>
+    <ul>
+      <li>«Моя консультация стоит 5&nbsp;000&nbsp;₽» она считает информацией. Призыв вроде «у&nbsp;меня сегодня акция, подписывайтесь» уже надо маркировать.</li>
+      <li>Если страшно, маркируйте каждый свой продающий пост. Сервис ОРД, по&nbsp;её словам, стоит около 500&nbsp;₽ в&nbsp;месяц для самозанятых и&nbsp;3&nbsp;000&nbsp;₽ для ИП.</li>
+      <li>Рекламу чужих товаров и&nbsp;услуг только с&nbsp;маркировкой.</li>
+    </ul>
+  </section>
+
+  <section class="sec">
+    <span class="tc">1:27:14</span>
+    <h2>Ходить к&nbsp;предпринимателям или ждать у&nbsp;себя</h2>
+    <p>Прежние способы искать клиентов работают хуже. Если страница раскачана, предприниматели приходят сами. Ирина так нашла трёх предпринимателей для корпоративного обучения. На&nbsp;нетворкинги она не&nbsp;ходит.</p>
+    <p>Федеральные компании иногда покупают у&nbsp;неё рекламу по&nbsp;85&nbsp;000&nbsp;₽ за&nbsp;пост. Обычный рекламный пост стоит от&nbsp;3&nbsp;000 до&nbsp;10&nbsp;000&nbsp;₽.</p>
+  </section>
+
+  <section class="sec">
+    <span class="tc">1:31:25</span>
+    <h2>Что добавил Дмитрий</h2>
+    <ul>
+      <li><b>Дорогие клиенты это ловушка.</b> Их сложно удерживать, а&nbsp;когда такой клиент уходит, не&nbsp;остаётся ничего. Поэтому важно качать публичность и&nbsp;личный бренд.</li>
+      <li><b>Собирайте свою базу.</b> Блогеры обычно не&nbsp;собирают подписчиков в&nbsp;рассылку и&nbsp;не&nbsp;знают о&nbsp;них ничего. С&nbsp;базой можно отправить письмо, посмотреть, кто нажал кнопку, и&nbsp;проверить идею, ещё не&nbsp;показывая её всем.</li>
+    </ul>
+  </section>
+
+  <section class="sec">
+    <h2>Домашнее задание на&nbsp;неделю</h2>
+    <ul class="check" id="check">
+      <li><label><input type="checkbox" id="c1"><span>Выбрать, про что я буду писать целый год</span></label></li>
+      <li><label><input type="checkbox" id="c2"><span>Записать свои три темы: экспертная, хобби, сериал</span></label></li>
+      <li><label><input type="checkbox" id="c3"><span>Опубликовать первый плохой пост</span></label></li>
+      <li><label><input type="checkbox" id="c4"><span>Поставить в&nbsp;календарь три поста на&nbsp;эту неделю</span></label></li>
+      <li><label><input type="checkbox" id="c5"><span>Посчитать, сколько людей уже прошло через мои руки</span></label></li>
+      <li><label><input type="checkbox" id="c6"><span>Написать один пост с&nbsp;продуктом и&nbsp;ценой</span></label></li>
+    </ul>
+  </section>
+
+  <aside class="offer">
+    <h2>Хотите пройти это по&nbsp;шагам?</h2>
+    <p>Курс в&nbsp;записи и&nbsp;клуб на&nbsp;весь 2027 год за&nbsp;10&nbsp;000&nbsp;₽ до&nbsp;конца среды, 11&nbsp;ноября.</p>
+    <a href="https://brimtv.github.io/borovik-klub-2027/" target="_blank" rel="noopener">Посмотреть, что внутри</a>
+  </aside>
+</article>
+
+</main>
+
+<script>
+(function(){
+  var bar = document.getElementById('bar');
+  function store(k, v){ try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+  function progress(){
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    bar.style.width = h > 0 ? Math.min(100, window.scrollY / h * 100) + '%' : '0';
+  }
+  window.addEventListener('scroll', progress, {passive: true});
+
+  var scale = parseFloat(store('scale')) || 1;
+  function setScale(v){
+    scale = Math.max(.85, Math.min(1.4, v));
+    document.documentElement.style.setProperty('--scale', scale);
+    store('scale', String(scale));
+  }
+  setScale(scale);
+  document.getElementById('minus').addEventListener('click', function(){ setScale(scale - .1); });
+  document.getElementById('plus').addEventListener('click', function(){ setScale(scale + .1); });
+
+  document.querySelectorAll('#check input').forEach(function(c){
+    c.checked = store(c.id) === '1';
+    c.addEventListener('change', function(){ store(c.id, c.checked ? '1' : '0'); });
+  });
+
+  document.querySelectorAll('#toc a').forEach(function(a){
+    a.addEventListener('click', function(ev){
+      ev.preventDefault();
+      var t = document.getElementById(a.dataset.to);
+      if (t) t.scrollIntoView();
+    });
+  });
+
+
+  progress();
+})();
+</script>
+
+</body>
+</html>
