@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Курс и клуб Ирины Боровик на 2027 год">
+<meta property="og:description" content="10 000 ₽ вместо 19 998 ₽. Цена с эфира 8 ноября, действует до среды, 11 ноября, включительно.">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Курс и клуб Боровик</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Курс в записи и клуб на весь 2027 год с Ириной Боровик за 10 000 ₽. Цена с эфира 8 ноября, действует до среды, 11 ноября, включительно.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Golos+Text:wght@400;500;700;800&family=Vollkorn:wght@700;800;900&display=swap">
+<style>
+/* Школьная тетрадь в клетку: чернила, красная ручка учителя и поля слева. В тёмной теме это школьная доска. */
+:root{
+  --paper:#F6FAFF;--grid:#DCE8F5;--ink:#2B2A8C;--text:#1E2132;--muted:#565D75;
+  --pen:#CF1F2D;--on-pen:#FFFFFF;--margin:#EFA2A9;--card:#FFFFFF;--line:#C9D7E8;
+  --inv-bg:#2B2A8C;--inv-fg:#F6FAFF;--inv-muted:#C9CCF2;--inv-pen:#FFB4AB;--marker:#FFE36B;
+  --display:"Vollkorn",Georgia,"Times New Roman",serif;
+  --body:"Golos Text",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --hand:"Caveat","Segoe Print","Bradley Hand",cursive;
+  --gutter:clamp(14px,3.4vw,34px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#16302B;--grid:#1F3D37;--ink:#F3F6EA;--text:#E6ECDF;--muted:#AABAAE;
+  --pen:#FF9384;--on-pen:#16302B;--margin:#7C4C49;--card:#1D3A34;--line:#335750;
+  --inv-bg:#F3F6EA;--inv-fg:#16302B;--inv-muted:#4B6158;--inv-pen:#B3261E;--marker:rgba(247,217,92,.34);
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#16302B;--grid:#1F3D37;--ink:#F3F6EA;--text:#E6ECDF;--muted:#AABAAE;
+  --pen:#FF9384;--on-pen:#16302B;--margin:#7C4C49;--card:#1D3A34;--line:#335750;
+  --inv-bg:#F3F6EA;--inv-fg:#16302B;--inv-muted:#4B6158;--inv-pen:#B3261E;--marker:rgba(247,217,92,.34);
+  color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background-color:var(--paper);color:var(--text);font:400 18px/1.6 var(--body);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:26px 26px;-webkit-text-size-adjust:100%}
+.page{max-width:1060px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.row{display:grid;grid-template-columns:150px minmax(0,1fr)}
+.note{font:700 25px/1.08 var(--hand);color:var(--pen);text-align:right;padding:66px 18px 0 0;transform:rotate(-3deg);transform-origin:top right}
+.body{border-left:1.5px solid var(--margin);padding-left:var(--gutter);padding-block:54px;min-width:0}
+.body>*+*{margin-top:22px}
+h1,h2,h3{font-family:var(--display);color:var(--ink);text-wrap:balance;margin:0}
+h1{font-weight:900;font-size:clamp(39px,6.7vw,72px);line-height:1.2;letter-spacing:-.012em}
+h2{font-weight:800;font-size:clamp(30px,4.4vw,44px);line-height:1.14}
+h3{font-weight:800;font-size:25px;line-height:1.2}
+p{margin:0;max-width:64ch}
+b,strong{font-weight:700}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--pen);outline-offset:3px;border-radius:3px}
+.mark{background:linear-gradient(transparent 58%,var(--marker) 58%)}
+.hand{font:700 29px/1.15 var(--hand);color:var(--pen)}
+.lead{font-size:clamp(20px,2.4vw,23px);line-height:1.5}
+.muted{color:var(--muted)}
+.small{font-size:15.5px;line-height:1.5}
+
+.top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 20px;padding-block:18px 0;font-size:15.5px;color:var(--muted)}
+.top b{color:var(--ink)}
+
+.fix{position:relative;display:inline-block;white-space:nowrap}
+.fix s{text-decoration:none;position:relative;color:var(--muted)}
+.fix s::after{content:"";position:absolute;left:-3%;right:-3%;top:56%;height:.075em;background:var(--pen);border-radius:9px;transform:rotate(-2.5deg);transform-origin:left;animation:strike .5s .35s cubic-bezier(.3,.8,.3,1) backwards}
+.fix i{position:absolute;left:50%;top:-.66em;transform:translateX(-50%) rotate(-5deg);font:700 .84em/1 var(--hand);color:var(--pen);animation:write .4s .8s ease-out backwards}
+@keyframes strike{from{transform:rotate(-2.5deg) scaleX(0)}}
+@keyframes write{from{opacity:0;transform:translateX(-50%) rotate(-5deg) translateY(7px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+
+.btn{display:inline-flex;justify-content:center;align-items:center;text-align:center;background:var(--pen);color:var(--on-pen);font:700 20px/1.2 var(--body);padding:19px 28px;border:0;border-radius:6px;text-decoration:none;cursor:pointer;box-shadow:3px 4px 0 var(--ink);transition:transform .12s,box-shadow .12s}
+.btn:hover{transform:translate(-1px,-1px);box-shadow:5px 6px 0 var(--ink)}
+.btn:active{transform:translate(2px,3px);box-shadow:1px 1px 0 var(--ink)}
+.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink);box-shadow:none;font-size:17px;padding:12px 18px}
+
+.ticket{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px 30px;align-items:center;background:var(--card);border:1.5px solid var(--line);padding:22px 24px;max-width:740px}
+.ticket .was{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--pen);text-decoration-thickness:2px;font-size:20px}
+.ticket .now{font:800 clamp(40px,6vw,54px)/1.05 var(--body);letter-spacing:-.02em;color:var(--ink);white-space:nowrap}
+.ticket .what{font-weight:500}
+.timer{display:flex;gap:7px;font-variant-numeric:tabular-nums}
+.timer div{min-width:56px;text-align:center;border:1.5px solid var(--line);padding:6px 4px;background:var(--paper)}
+.timer b{display:block;font:800 26px/1.1 var(--body);color:var(--pen)}
+.timer span{font-size:12px;color:var(--muted)}
+.expired-note{display:none;font-weight:500}
+.expired .timer{display:none}
+.expired .expired-note{display:block}
+
+.dict{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 34px}
+.dict li{font:600 27px/1.16 var(--hand);color:var(--ink);padding-bottom:12px;border-bottom:1.5px dashed var(--line)}
+
+.rules{display:grid;gap:0;counter-reset:r;margin:0;padding:0;list-style:none}
+.rules li{display:grid;grid-template-columns:50px minmax(0,1fr);gap:0 6px;padding:20px 0;border-top:1.5px solid var(--line);counter-increment:r}
+.rules li::before{content:counter(r);font:800 38px/1 var(--body);color:var(--pen)}
+.rules h3{margin-bottom:6px}
+.quote{font:700 28px/1.14 var(--hand);color:var(--pen);display:block;margin-top:8px}
+
+.funnel{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1.5px solid var(--ink);margin-top:12px;max-width:640px}
+.funnel div{padding:12px 12px 14px;min-width:0}
+.funnel div+div{border-left:1.5px solid var(--ink)}
+.funnel b{display:block;font-family:var(--display);font-size:19px;color:var(--ink);line-height:1.2}
+.funnel span{font-size:15px;line-height:1.35;display:block;margin-top:4px;color:var(--muted)}
+
+.hw{background:var(--card);border:1.5px solid var(--line);padding:24px;display:grid;gap:18px}
+.hw-fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.hw label{display:grid;gap:5px;font-weight:700;font-size:16px;color:var(--ink);min-width:0}
+.hw label span{font-weight:400;font-size:14.5px;color:var(--muted);line-height:1.3}
+.hw input{width:100%;font:500 17px/1.3 var(--body);padding:11px 10px;border:1.5px solid var(--line);border-radius:4px;background:var(--paper);color:var(--text)}
+.week{margin:0;display:grid;gap:10px}
+.week div{display:grid;grid-template-columns:128px minmax(0,1fr);gap:10px}
+.week dt{font:700 27px/1.1 var(--hand);color:var(--pen)}
+.week dd{margin:0;overflow-wrap:anywhere}
+
+.bars{display:grid;gap:15px;max-width:680px}
+.bar .lbl{display:flex;justify-content:space-between;gap:12px;font-size:16.5px;align-items:baseline}
+.bar .lbl b{font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--ink)}
+.bar .t{height:16px;background:var(--grid);margin-top:4px}
+.bar .f{height:100%;background:var(--muted)}
+.bar.top1 .f{background:var(--pen)}
+
+.diary{width:100%;max-width:700px;border-collapse:collapse;font-size:17px}
+.diary td{padding:9px 8px;border-bottom:1.5px solid var(--line);vertical-align:baseline}
+.diary td:last-child{text-align:right;font:700 27px/1 var(--hand);color:var(--pen);white-space:nowrap}
+
+.cases{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.case{background:var(--card);border:1.5px solid var(--line);padding:20px 22px;display:grid;gap:8px;align-content:start;min-width:0}
+.case .num{font:800 30px/1.12 var(--body);letter-spacing:-.015em;color:var(--pen)}
+
+.reviews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 34px;margin:0}
+.reviews blockquote{margin:0;font-size:18.5px;line-height:1.5;padding-top:12px;border-top:3px solid var(--ink)}
+
+.price{background:var(--inv-bg);color:var(--inv-fg);padding:clamp(24px,4vw,40px);display:grid;gap:26px}
+.price h2,.price h3{color:var(--inv-fg)}
+.price .cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}
+.price ol,.price ul{margin:10px 0 0;padding-left:22px;display:grid;gap:9px}
+.price .tag{color:var(--inv-muted);font-size:16px;margin-top:2px}
+.sum{border-top:1.5px dashed var(--inv-muted);padding-top:22px;display:grid;gap:16px}
+.sum .line{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 16px;font-size:18px;max-width:560px}
+.sum .line.tot{font:800 clamp(42px,7vw,62px)/1.05 var(--body);letter-spacing:-.02em;align-items:baseline}
+.sum s{text-decoration-color:var(--inv-pen);text-decoration-thickness:2px}
+.price .hand{color:var(--inv-pen)}
+.price .timer div{background:transparent;border-color:var(--inv-muted)}
+.price .timer b{color:var(--inv-fg)}
+.price .timer span{color:var(--inv-muted)}
+.price .btn{box-shadow:none;background:var(--inv-pen);color:var(--inv-bg)}
+.price .small{color:var(--inv-muted)}
+
+.mm{border:2px solid var(--ink);padding:24px;display:grid;gap:14px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 28px;font-weight:500}
+.facts b{color:var(--pen);font-size:21px;font-variant-numeric:tabular-nums}
+
+.faq{display:grid}
+.faq details{border-top:1.5px solid var(--line);padding:14px 0}
+.faq summary{cursor:pointer;font:800 21px/1.25 var(--display);color:var(--ink);list-style-position:outside}
+.faq details p{margin-top:9px}
+
+.oath{font:700 clamp(31px,4.6vw,42px)/1.17 var(--hand);color:var(--ink)}
+.foot{padding-block:0 42px;font-size:14.5px;line-height:1.5;color:var(--muted)}
+
+.stick{display:none}
+@media (max-width:820px){
+  body{font-size:18px}
+  .row{grid-template-columns:minmax(0,1fr)}
+  .note{text-align:left;padding:30px 0 0 16px;margin-bottom:-38px;position:relative;z-index:1;transform:rotate(-1.5deg);transform-origin:top left}
+  .body{padding-left:14px;padding-block:44px}
+  .dict,.cases,.reviews,.price .cols,.hw-fields{grid-template-columns:minmax(0,1fr)}
+  .ticket{grid-template-columns:minmax(0,1fr)}
+  .week div{grid-template-columns:minmax(0,1fr);gap:0}
+  .funnel{grid-template-columns:minmax(0,1fr)}
+  .funnel div+div{border-left:0;border-top:1.5px solid var(--ink)}
+  .btn{width:100%}
+  body{padding-bottom:84px}
+  .stick{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:20;gap:12px;align-items:center;justify-content:space-between;background:var(--card);border-top:2px solid var(--ink);
+    padding:10px max(14px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(14px,env(safe-area-inset-left,0px));transition:transform .2s}
+  .stick.off{transform:translateY(120%)}
+  .stick .btn{width:auto;padding:12px 16px;font-size:16.5px;box-shadow:none;white-space:nowrap}
+  .stick b{font:800 22px/1 var(--body);color:var(--ink);white-space:nowrap}
+  .stick span{display:block;font-size:13px;color:var(--muted);line-height:1.2;margin-top:3px;font-variant-numeric:tabular-nums}
+}
+</style>
+</head>
+<body>
+
+<div class="page">
+
+<header class="row">
+  <div></div>
+  <div class="body" style="padding-block:18px 0"><div class="top" style="padding:0"><span><b>Ирина Боровик</b>, настоящий пермский блогер</span><span>Предложение после эфира 8 ноября</span></div></div>
+</header>
+
+<section class="row">
+  <aside class="note">Записываем!</aside>
+  <div class="body" style="padding-top:62px">
+    <h1>Три <span class="fix"><s>идеальных</s><i>плохих</i></span> поста в&nbsp;неделю. С&nbsp;этого страница начинает продавать</h1>
+    <p class="lead">На эфире Ирина Боровик рассказала, как зарабатывает со своей страницы 300&nbsp;000&nbsp;₽ в&nbsp;месяц. В&nbsp;курсе и&nbsp;клубе вы пройдёте этот путь по&nbsp;шагам, вместе с&nbsp;теми, кому тоже страшно написать цену в&nbsp;посте.</p>
+    <div class="ticket">
+      <div>
+        <div class="what">Курс в&nbsp;записи и&nbsp;клуб на&nbsp;весь 2027&nbsp;год</div>
+        <div class="was">19&nbsp;998&nbsp;₽</div>
+        <div class="now">10&nbsp;000&nbsp;₽</div>
+      </div>
+      <div>
+        <div class="small muted" style="margin-bottom:6px">До конца среды, 11&nbsp;ноября</div>
+        <div class="timer" data-timer aria-label="Сколько осталось до конца предложения"></div>
+        <div class="expired-note">Цена с&nbsp;эфира действовала до&nbsp;11&nbsp;ноября. Условия подскажет Дмитрий.</div>
+      </div>
+    </div>
+    <div><a class="btn" href="https://vk.me/zvezdund" target="_blank" rel="noopener">Написать Диме и&nbsp;забрать за&nbsp;10&nbsp;000&nbsp;₽</a></div>
+    <p class="small muted">Дмитрий Звездун, организатор эфира, расскажет в&nbsp;личных сообщениях, как оплатить. Достаточно написать: «Хочу курс и&nbsp;клуб».</p>
+  </div>
+</section>
+
+<section class="row">
+  <aside class="note">Ваши слова из&nbsp;анкет и&nbsp;чата</aside>
+  <div class="body">
+    <h2>Перед эфиром мы прочитали полсотни анкет</h2>
+    <p>Почти в&nbsp;шести из&nbsp;десяти одна и&nbsp;та&nbsp;же история: дело есть, клиенты приходят по&nbsp;сарафану, а&nbsp;со&nbsp;страницы тишина. Остальные пока не&nbsp;понимают, что им вообще продавать. Вот что вы написали:</p>
+    <ul class="dict">
+      <li>«Что продавать, если нечего продавать?»</li>
+      <li>«Страничка моя просто про жизнь. А&nbsp;хочется, чтобы клиенты приходили»</li>
+      <li>«Продукт есть, а&nbsp;продаж пока мало»</li>
+      <li>«Как начать проявляться? Ну не&nbsp;хочу и&nbsp;всё тут»</li>
+      <li>«Чем могу быть полезна?»</li>
+      <li>«Не&nbsp;знаю, как раскрутить себя как эксперта, чтобы ко&nbsp;мне обращались»</li>
+      <li>«Одного найма не&nbsp;хватает, поэтому я человек в&nbsp;двух наймах»</li>
+      <li>«Я автор двух книг, но&nbsp;денег хочется, сил нет»</li>
+    </ul>
+    <p class="lead">Садитесь написать пост. О&nbsp;чём? Написали, выложили, три лайка, два из&nbsp;них от&nbsp;своих. Через неделю ещё раз. На&nbsp;пятый раз уже не&nbsp;садитесь.</p>
+    <p class="hand">Двойку не&nbsp;ставлю. Без привычки это тяжело, а&nbsp;без системы почти невозможно.</p>
+  </div>
+</section>
+
+<section class="row">
+  <aside class="note">Для тех, кто слушал вполуха</aside>
+  <div class="body">
+    <h2>Конспект эфира за&nbsp;три минуты</h2>
+    <p>Это бесплатно и&nbsp;уже ваше. Начать можно сегодня, даже если ничего не&nbsp;купите.</p>
+    <ol class="rules">
+      <li><div><h3>Начните хоть с&nbsp;чего-то</h3><p>Правильного ответа заранее не&nbsp;будет. Ирина зашла во&nbsp;ВКонтакте сексологом, а&nbsp;теперь учит блогеров. Выберите тему и&nbsp;начните продавать.</p></div></li>
+      <li><div><h3>Регулярность важнее красоты</h3><p>Алгоритмы показывают тех, кто пишет часто. Минимум три поста в&nbsp;неделю. Хотя бы два месяца подряд, а&nbsp;лучше год.</p><span class="quote">«Вечерело…» и&nbsp;фото у&nbsp;осенней листвы тоже пост</span></div></li>
+      <li><div><h3>Три темы на&nbsp;целый год</h3><p>Экспертная, хобби и&nbsp;сериал, то&nbsp;есть то, где у&nbsp;вас пока не&nbsp;получается. За&nbsp;сериалом люди следят, как за&nbsp;героями книги.</p></div></li>
+      <li><div><h3>Важно, какой вы</h3><p>Психологов и&nbsp;нутрициологов много. К&nbsp;тому, кто показывает своего котика, придут любители котиков. Покупают у&nbsp;человека, который примелькался и&nbsp;стал почти родным.</p></div></li>
+      <li><div><h3>Вы уже достаточно хороши</h3><p>Ирина рассказала о&nbsp;наставнице, которая издала одну книгу и&nbsp;помогла написать уже больше 600. Блогер для неё это любой, кто развивает свой блог. Даже если подписчиков 32.</p></div></li>
+      <li><div><h3>Станьте своим кейсом</h3><p>Видеографу нужны видео на&nbsp;странице, диетологу вес, которому поверят. Поделитесь своим результатом, и&nbsp;люди придут спросить, как вы это сделали.</p></div></li>
+      <li><div><h3>Привлечение, прогрев, продажа</h3><p>Новичкам Ирина советует поровну. На&nbsp;каждый продукт минимум шесть продающих постов. С&nbsp;первого у&nbsp;неё не&nbsp;купили ни&nbsp;разу за&nbsp;20&nbsp;лет.</p>
+        <div class="funnel"><div><b>Привлечение</b><span>Развлекаете, цепляете, угораете</span></div><div><b>Прогрев</b><span>Дипломы, кейсы, разборы</span></div><div><b>Продажа</b><span>Продукт и&nbsp;цена прямым текстом</span></div></div></div></li>
+      <li><div><h3>Вся сила в&nbsp;повторных покупках</h3><p>Человек зашёл на&nbsp;марафон за&nbsp;2&nbsp;900&nbsp;₽, а&nbsp;через три года он уже на&nbsp;четвёртом продукте. Собирайте покупателей вместе и&nbsp;делайте следующую ступень.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="row">
+  <aside class="note">Домашнее задание</aside>
+  <div class="body">
+    <h2>Соберите свою неделю прямо здесь</h2>
+    <div class="hw">
+      <p class="small muted">Для примера мы заполнили поля. Впишите своё, и&nbsp;план обновится сам.</p>
+      <div class="hw-fields">
+        <label for="t1">Экспертная тема<span>За&nbsp;что вам могут платить</span><input id="t1" value="шитьё на заказ" autocomplete="off"></label>
+        <label for="t2">Хобби<span>Что у&nbsp;вас хорошо получается для души</span><input id="t2" value="дача и рассада" autocomplete="off"></label>
+        <label for="t3">Сериал<span>Где пока не&nbsp;получается</span><input id="t3" value="учусь писать цену в посте" autocomplete="off"></label>
+      </div>
+      <dl class="week" id="week" aria-live="polite">
+        <div><dt>Понедельник</dt><dd></dd></div>
+        <div><dt>Среда</dt><dd></dd></div>
+        <div><dt>Пятница</dt><dd></dd></div>
+      </dl>
+      <div><button class="btn ghost" id="copy" type="button">Скопировать план</button></div>
+    </div>
+    <p class="hand">Плохо напишете? Отлично. Главное, в&nbsp;пятницу напишите снова.</p>
+  </div>
+</section>
+
+<section class="row">
+  <aside class="note">Кто проверяет тетради</aside>
+  <div class="body">
+    <h2>Вылетела из&nbsp;спецшколы с&nbsp;двойкой по&nbsp;английскому. Теперь учит продавать</h2>
+    <p>Папа тракторист, мама инженер. Четверо детей. Ирина бросила пить, ушла со&nbsp;всех работ, удалила страницу и&nbsp;начала с&nbsp;нуля: каждый день три круга по&nbsp;Горьковскому парку в&nbsp;Перми. Без плана стать богатой, просто чтобы хоть что-то делать.</p>
+    <div class="bars" role="img" aria-label="Сравнение доходов: пособие 42 000 рублей, максимум в найме 60 000 рублей, сейчас со страницы 300 000 рублей в месяц">
+      <div class="bar"><div class="lbl"><span>Пособие на&nbsp;семью с&nbsp;четырьмя детьми</span><b>42&nbsp;000&nbsp;₽</b></div><div class="t"><div class="f" style="width:14%"></div></div></div>
+      <div class="bar"><div class="lbl"><span>Самая большая зарплата в&nbsp;найме</span><b>60&nbsp;000&nbsp;₽</b></div><div class="t"><div class="f" style="width:20%"></div></div></div>
+      <div class="bar top1"><div class="lbl"><span>Сейчас со&nbsp;своей страницы, стабильно уже год</span><b>300&nbsp;000&nbsp;₽</b></div><div class="t"><div class="f" style="width:100%"></div></div></div>
+    </div>
+    <table class="diary">
+      <tr><td>Лет в&nbsp;соцсетях</td><td>20</td></tr>
+      <tr><td>Подписчиков</td><td>15&nbsp;000</td></tr>
+      <tr><td>Человек в&nbsp;клубе</td><td>92</td></tr>
+      <tr><td>Постов в&nbsp;день</td><td>до&nbsp;4</td></tr>
+      <tr><td>Самый дорогой рекламный пост</td><td>85&nbsp;000&nbsp;₽</td></tr>
+    </table>
+    <p>У&nbsp;неё есть образование педагога начальных классов, книга «Метод Боровик» на&nbsp;Литрес и&nbsp;привычка рассказывать о&nbsp;себе всё сама, раньше недоброжелателей. Свою главную мысль она формулирует так: блог нужен для вашей безопасности и&nbsp;роста. А&nbsp;если вы уже тратите на&nbsp;него время, он обязан приносить деньги.</p>
+    <p class="hand">«Всё, что я говорю, надо проверять»</p>
+  </div>
+</section>
+
+<section class="row">
+  <aside class="note">Истории с&nbsp;эфира</aside>
+  <div class="body">
+    <h2>Как это выглядит у&nbsp;обычных людей</h2>
+    <div class="cases">
+      <article class="case"><div class="num">1&nbsp;490&nbsp;₽ → 70&nbsp;000&nbsp;₽</div><h3>Микрозелень на&nbsp;подоконнике</h3><p>Участница мастермайнда не&nbsp;знала, что продавать. Оказалось, каждую весну она умеет то, что у&nbsp;других не&nbsp;всходит. Первый запуск принёс 1&nbsp;490&nbsp;₽. Через год, уже понимая систему, она зарабатывала на&nbsp;блоге 70&nbsp;000&nbsp;₽.</p></article>
+      <article class="case"><div class="num">90% курса</div><h3>Ирина тоже начинала вслепую</h3><p>Первую группу она набрала без денег, за&nbsp;посты. Ученицы сказали, где сложно, и&nbsp;показали, где смотреть статистику. Почти весь сегодняшний курс вырос из&nbsp;этой обратной связи.</p></article>
+      <article class="case"><div class="num">4 продукта</div><h3>От&nbsp;марафона до&nbsp;общего тренинга</h3><p>Ученица пришла на&nbsp;марафон за&nbsp;2&nbsp;900&nbsp;₽. За&nbsp;три года она прошла четыре продукта, а&nbsp;летом они вместе провели тренинг в&nbsp;Москве.</p></article>
+      <article class="case"><div class="num">Больше 1&nbsp;млн&nbsp;₽</div><h3>Прошлый мастермайнд</h3><p>Столько, по&nbsp;словам Ирины, вместе напродавала её предыдущая группа.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="row">
+  <aside class="note">Отзывы из&nbsp;чата эфира</aside>
+  <div class="body">
+    <h2>Что написали сразу после эфира</h2>
+    <div class="reviews">
+      <blockquote>«Самая большая ценность — чёткий ориентир на&nbsp;конкретную тему блога, которую можно монетизировать, и&nbsp;плюс к&nbsp;этому конкретные шаги по&nbsp;развитию. Простые. Доступные. Логичные».</blockquote>
+      <blockquote>«Очень живо. Честно. Просто. С&nbsp;другой стороны посмотрела на&nbsp;блог — без пафоса. Это отличный инструмент, если знать, как играть».</blockquote>
+      <blockquote>«Лёгкая, непринуждённая атмосфера. Как будто встреча давних друзей. Полезным было напоминание про то, что блог нужно развивать, а&nbsp;не&nbsp;стихийно выкладывать посты».</blockquote>
+      <blockquote>«Самым ценным для себя взяла, что блог это ещё и&nbsp;безопасность!»</blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="row" id="price">
+  <aside class="note">Расписание на&nbsp;2027</aside>
+  <div class="body">
+    <div class="price">
+      <h2>Что входит в&nbsp;цену</h2>
+      <div class="cols">
+        <div>
+          <h3>Курс в&nbsp;записи</h3>
+          <div class="tag">5 уроков по&nbsp;полчаса, с&nbsp;домашними заданиями. Отдельно 9&nbsp;999&nbsp;₽</div>
+          <ol>
+            <li>Личная стратегия ведения блога. О&nbsp;чём писать и&nbsp;как часто</li>
+            <li>Личный бренд через тексты и&nbsp;визуал: фото и&nbsp;видео</li>
+            <li>Взаимодействие с&nbsp;аудиторией</li>
+            <li>Платные и&nbsp;бесплатные способы продвижения, включая мероприятия и&nbsp;работу со&nbsp;СМИ</li>
+            <li>Монетизация блога: курсы, марафоны, интенсивы, продажа рекламы на&nbsp;странице</li>
+          </ol>
+        </div>
+        <div>
+          <h3>Клуб на&nbsp;весь <span style="font-family:var(--body)">2027</span> год</h3>
+          <div class="tag">Два созвона в&nbsp;месяц, всё остаётся в&nbsp;записи. Отдельно 9&nbsp;999&nbsp;₽</div>
+          <ul>
+            <li>Созвоны на&nbsp;тему блогинга со&nbsp;специалистами</li>
+            <li>Смежные темы: юристы, бухгалтеры, стилисты, специалисты по&nbsp;авторскому праву</li>
+            <li>Ответы на&nbsp;все вопросы в&nbsp;чате клуба</li>
+            <li>Поддержка единомышленников из&nbsp;разных городов</li>
+            <li>Форум «Первые ВКонтакте» 25&nbsp;февраля в&nbsp;Перми и&nbsp;ежегодная встреча в&nbsp;Москве 7&nbsp;июля на&nbsp;Красной площади</li>
+          </ul>
+        </div>
+      </div>
+      <p class="hand">В&nbsp;клуб без курса Ирина не&nbsp;пускает, поэтому курс идёт в&nbsp;подарок</p>
+      <div class="sum">
+        <div class="line"><span>Курс + клуб по&nbsp;отдельности</span><s>19&nbsp;998&nbsp;₽</s></div>
+        <div class="line tot"><span>10&nbsp;000&nbsp;₽</span></div>
+        <div class="line small" style="font-size:16px"><span>Это примерно 833&nbsp;₽ в&nbsp;месяц за&nbsp;год клуба, а&nbsp;курс бесплатно</span></div>
+        <div class="timer" data-timer aria-label="Сколько осталось до конца предложения"></div>
+        <div class="expired-note">Цена с&nbsp;эфира действовала до&nbsp;11&nbsp;ноября. Условия подскажет Дмитрий.</div>
+        <div><a class="btn" href="https://vk.me/zvezdund" target="_blank" rel="noopener">Забрать курс и&nbsp;клуб за&nbsp;10&nbsp;000&nbsp;₽</a></div>
+        <p class="small">Напишите Диме «Хочу курс и&nbsp;клуб», он пришлёт, как оплатить. Предложение действует до&nbsp;конца среды, 11&nbsp;ноября, по&nbsp;московскому времени.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="row">
+  <aside class="note">Честно</aside>
+  <div class="body">
+    <h2>Кому это не&nbsp;подойдёт</h2>
+    <p>Если хочется продукт, который продаётся сам, пока вы курите бамбук на&nbsp;Мальдивах. Ирина об&nbsp;этом сказала прямо: все богатые люди, которых она знает, из&nbsp;работы так и&nbsp;не&nbsp;вышли.</p>
+    <p>И&nbsp;если вы не&nbsp;готовы выкладывать три поста в&nbsp;неделю. Курс покажет, что писать и&nbsp;как продавать, но&nbsp;посты за&nbsp;вас не&nbsp;выйдут.</p>
+  </div>
+</section>
+
+<section class="row">
+  <aside class="note">Следующий класс</aside>
+  <div class="body">
+    <div class="mm">
+      <h2>Продукт уже есть и&nbsp;нужна стратегия?</h2>
+      <p>Продажный мастермайнд: пять месяцев вы учитесь продавать со&nbsp;своей страницы и&nbsp;сразу продаёте. Ирина рядом как раз на&nbsp;том шаге, где почти все сдуваются: написать пост с&nbsp;ценой.</p>
+      <div class="facts"><span><b>30&nbsp;000&nbsp;₽</b> вместо 50&nbsp;000&nbsp;₽</span><span><b>10</b> человек в&nbsp;группе</span><span><b>февраль</b> старт</span></div>
+      <p class="small muted">На&nbsp;момент эфира по&nbsp;этой цене оставалось два места.</p>
+      <div><a class="btn ghost" href="https://vk.me/zvezdund" target="_blank" rel="noopener">Спросить про мастермайнд</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="row">
+  <aside class="note">Работа над ошибками</aside>
+  <div class="body">
+    <h2>Если всё ещё сомневаетесь</h2>
+    <div class="faq">
+      <details open><summary>У меня мало подписчиков</summary><p>По определению Ирины блогер это человек, который свой блог развивает. Даже если подписчиков 32. Первые люди придут с&nbsp;контента на&nbsp;привлечение, а&nbsp;способы продвижения разобраны в&nbsp;четвёртом уроке.</p></details>
+      <details><summary>Мне нечего продавать</summary><p>Участница с&nbsp;микрозеленью думала так же. Посмотрите, о&nbsp;чём вас спрашивают знакомые, выберите одно и&nbsp;попробуйте. Можно взять небольшую группу, поработать с&nbsp;ней и&nbsp;собрать продукт по&nbsp;её обратной связи.</p></details>
+      <details><summary>У меня слишком много направлений</summary><p>Выберите главную линию на&nbsp;год, остальное пристроится ступенями. Ирина совмещает блогинг, обзоры на&nbsp;свою старую тему и&nbsp;корпоративное обучение, потому что основа у&nbsp;неё одна.</p></details>
+      <details><summary>Страница или сообщество?</summary><p>Пока вас не&nbsp;узнают на&nbsp;улицах хотя бы в&nbsp;родном городе, Ирина советует качать личную страницу. Сообщество для неё витрина, а&nbsp;на&nbsp;личной люди решают, нравитесь ли вы им.</p></details>
+      <details><summary>Мне неловко писать цену</summary><p>Здесь сдуваются многие. «А&nbsp;если купят? А&nbsp;если не&nbsp;купят?» Поэтому на&nbsp;созвонах клуба разбирают продающие посты, а&nbsp;в&nbsp;чате можно спросить, когда страшно.</p></details>
+      <details><summary>Я работаю в&nbsp;найме и&nbsp;времени мало</summary><p>Уроки идут по&nbsp;полчаса и&nbsp;лежат в&nbsp;записи, созвоны клуба тоже остаются. Для начала нужно три поста в&nbsp;неделю, и&nbsp;плохие тоже считаются.</p></details>
+      <details><summary>Можно ли писать цены в&nbsp;постах?</summary><p>Можно. Если сомневаетесь, промаркируйте свой продающий пост. В&nbsp;клубе на&nbsp;такие темы выступают юристы и&nbsp;бухгалтеры.</p></details>
+      <details><summary>Как оплатить?</summary><p>Напишите Дмитрию Звездуну в&nbsp;личные сообщения, он пришлёт все подробности.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="row" id="final">
+  <aside class="note">Руку на&nbsp;грудь</aside>
+  <div class="body">
+    <p class="oath">Я хороший специалист. Я могу продавать себя через блог. Я достоин очень больших денег, и&nbsp;я начну это делать прямо сейчас.</p>
+    <p class="hand">Благословение получено. Осталось написать Диме.</p>
+    <div><a class="btn" href="https://vk.me/zvezdund" target="_blank" rel="noopener">Написать Диме</a></div>
+  </div>
+</section>
+
+<footer class="row">
+  <div></div>
+  <div class="body foot">Суммы на&nbsp;странице это личный опыт Ирины Боровик и&nbsp;её учеников, о&nbsp;котором она рассказала на&nbsp;эфире 8&nbsp;ноября 2026 года. Доход никто не&nbsp;гарантирует, результат зависит от&nbsp;вашей работы. Цитаты взяты из&nbsp;анкет и&nbsp;чата эфира, имена убраны.</div>
+</footer>
+
+</div>
+
+<div class="stick" id="stick">
+  <div><b>10&nbsp;000&nbsp;₽</b><span id="stickTime">до конца среды, 11 ноября</span></div>
+  <a class="btn" href="https://vk.me/zvezdund" target="_blank" rel="noopener">Написать Диме</a>
+</div>
+
+<script>
+(function(){
+  var END = Date.parse('2026-11-11T23:59:59+03:00');
+  var timers = document.querySelectorAll('[data-timer]');
+  var stickTime = document.getElementById('stickTime');
+  function pad(n){ return (n < 10 ? '0' : '') + n; }
+  function tick(){
+    var left = END - Date.now();
+    if (left <= 0) {
+      document.documentElement.classList.add('expired');
+      if (stickTime) stickTime.textContent = 'условия у Дмитрия';
+      clearInterval(id);
+      return;
+    }
+    var s = Math.floor(left / 1000);
+    var d = Math.floor(s / 86400), h = Math.floor(s % 86400 / 3600), m = Math.floor(s % 3600 / 60);
+    var html = [[d,'дн'],[h,'час'],[m,'мин'],[s % 60,'сек']].map(function(x){
+      return '<div><b>' + pad(x[0]) + '</b><span>' + x[1] + '</span></div>';
+    }).join('');
+    timers.forEach(function(t){ t.innerHTML = html; });
+    if (stickTime) stickTime.textContent = 'осталось ' + (d ? d + ' дн ' : '') + pad(h) + ':' + pad(m) + ':' + pad(s % 60);
+  }
+  var id = setInterval(tick, 1000);
+  tick();
+
+  var inputs = ['t1','t2','t3'].map(function(x){ return document.getElementById(x); });
+  var rows = document.querySelectorAll('#week dd');
+  var days = ['Понедельник','Среда','Пятница'];
+  var tpl = [
+    function(v){ return 'Про «' + v + '». Ответьте на вопрос, который вам задают чаще всего.'; },
+    function(v){ return 'Про «' + v + '». Покажите, что вас радует и почему.'; },
+    function(v){ return 'Про «' + v + '». Расскажите, что сегодня не получилось и что попробуете дальше.'; }
+  ];
+  function plan(){
+    return inputs.map(function(el, i){
+      var v = el.value.trim() || 'впишите тему';
+      var line = tpl[i](v);
+      rows[i].textContent = line;
+      return days[i] + ': ' + line;
+    }).join('\n');
+  }
+  inputs.forEach(function(el){ el.addEventListener('input', plan); });
+  plan();
+
+  var copy = document.getElementById('copy');
+  copy.addEventListener('click', function(){
+    var done = function(){ copy.textContent = 'Скопировано'; setTimeout(function(){ copy.textContent = 'Скопировать план'; }, 1800); };
+    var text = plan();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(function(){ selectWeek(); });
+    } else { selectWeek(); }
+  });
+  function selectWeek(){
+    var r = document.createRange();
+    r.selectNodeContents(document.getElementById('week'));
+    var sel = window.getSelection();
+    sel.removeAllRanges(); sel.addRange(r);
+    copy.textContent = 'Выделено, нажмите «Копировать»';
+  }
+
+  var stick = document.getElementById('stick');
+  if ('IntersectionObserver' in window) {
+    var hidden = new Set();
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if (e.isIntersecting) hidden.add(e.target); else hidden.delete(e.target); });
+      stick.classList.toggle('off', hidden.size > 0);
+    }, {threshold: .15});
+    ['price','final'].forEach(function(x){ io.observe(document.getElementById(x)); });
+  }
+})();
+</script>
+</body>
+</html>
